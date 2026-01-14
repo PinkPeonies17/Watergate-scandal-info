@@ -191,13 +191,6 @@ export default function Home() {
           </section>
         )}
       </div>
-
-      {/* Footer */}
-      <footer className="border-t border-border py-6 mt-8">
-        <div className="max-w-3xl mx-auto px-6 text-center text-muted-foreground text-sm">
-          Educational Resource about the Watergate Scandal (1972-1974)
-        </div>
-      </footer>
     </main>
   )
 }

@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "The Watergate Scandal (1972-1974)",
   description:
     "A comprehensive look at America's most infamous political scandal that led to the only resignation of a U.S. president.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
@@ -29,6 +28,7 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
+    generator: 'v0.app'
 }
 
 export default function RootLayout({

@@ -126,10 +126,23 @@
   }
 }
 
-/* Hide v0 badge/watermark globally */
-a[href="https://v0.dev"],
-[data-testid="v0-badge"],
-[class*="v0-badge"],
-a[title="Built with v0"] {
+/* More comprehensive v0 badge hiding rules */
+a[href*="v0.dev"],
+a[href*="v0.app"],
+[data-testid*="v0"],
+[class*="v0-"],
+[class*="v0_"],
+[id*="v0-"],
+[id*="v0_"],
+a[title*="v0"],
+[aria-label*="v0"],
+div[class*="badge"],
+a[class*="badge"] {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
 }
