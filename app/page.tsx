@@ -12,7 +12,7 @@ export default function Home() {
       {/* Header */}
       <header className="border-b border-border py-12">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2 text-foreground">The Watergate Scandal</h1>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2 text-primary">The Watergate Scandal</h1>
           <p className="text-lg text-muted-foreground">1972 - 1974</p>
         </div>
       </header>
